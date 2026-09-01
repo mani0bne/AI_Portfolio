@@ -126,7 +126,7 @@ ${previewRef.current.outerHTML}
     try {
       const htmlContent = generateHTML();
 
-      const res = await fetch("https://aiportfolio-y62u.onrender.com/api/save-portfolio", {
+      const res = await fetch("https://ai-portfolio-acj3.onrender.com/api/save-portfolio", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -155,7 +155,7 @@ ${previewRef.current.outerHTML}
   // ✅ Deploy to Vercel
   const deployPortfolio = async (id) => {
     try {
-      const res = await fetch("https://aiportfolio-y62u.onrender.com/api/deploy", {
+      const res = await fetch("https://ai-portfolio-acj3.onrender.com/api/deploy", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

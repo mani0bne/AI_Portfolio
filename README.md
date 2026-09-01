@@ -6,7 +6,7 @@ The project combines a modern React frontend with a Node.js backend and Google G
 
 ## 🚀 Live Demo
 
-**Live Application:** [Add your Vercel URL here]
+**Live Application:** https://ai-portfolio-silk-beta.vercel.app/
 
 **GitHub Repository:** https://github.com/mani0bne/AI_Portfolio
 
@@ -54,6 +54,7 @@ The application uses Artificial Intelligence to provide intelligent interactions
 - MongoDB
 - Mongoose
 - Google Generative AI (Gemini)
+- Groq AI
 - Axios
 - CORS
 - dotenv
@@ -137,7 +138,7 @@ Make sure the following software is installed:
 - Node.js (recommended: latest LTS version)
 - npm
 - MongoDB or MongoDB Atlas account
-- Google Gemini API key
+- Google Gemini/ Groq API key
 
 ---
 

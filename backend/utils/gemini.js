@@ -12,11 +12,8 @@ export const generatePortfolioJSON = async (resumeText) => {
             parts: [
               {
                 text: `
-<<<<<<< HEAD
-You are an AI that extracts resume data and returns ONLY valid JSON. If nno data is found return no data found.
-=======
-You are an AI that extracts resume data and returns ONLY valid JSON.
->>>>>>> 439d731f31ec0cfc365a3cdf5195d641754da135
+
+You are an AI that extracts resume data and returns ONLY valid JSON. If no data is found return no data found.
 
 Return JSON with this exact structure:
 {

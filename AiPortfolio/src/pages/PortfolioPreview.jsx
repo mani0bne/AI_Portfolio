@@ -243,7 +243,7 @@ ${previewRef.current.outerHTML}
       </div>
       {/* Buttons */}
       <div className="flex justify-center gap-4 p-4">
-        <button
+        <button 
           onClick={downloadPortfolio}
           className="bg-blue-600 text-white px-5 py-2 rounded hover:bg-blue-700"
         >

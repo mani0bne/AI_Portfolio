@@ -39,7 +39,6 @@ const templates = [
     tag: "Best for Freshers",
     image: "src/templates/minimalist.png",
   },
-<<<<<<< HEAD
   {
     id: "Advanced",
     name: "Advanced",
@@ -63,8 +62,6 @@ const templates = [
   tag: "Developers Choice",
   image: "src/templates/neon-preview.png",
 },
-=======
->>>>>>> 439d731f31ec0cfc365a3cdf5195d641754da135
 ];
 
 export default function TemplateSelection() {
@@ -80,11 +77,7 @@ const handleContinue = () => {
 
 
   return (
-<<<<<<< HEAD
     <div className="min-h-screen bg-gray-50 px-6 py-10 pt-24">
-=======
-    <div className="min-h-screen bg-gray-50 px-6 py-10">
->>>>>>> 439d731f31ec0cfc365a3cdf5195d641754da135
       <Navbar />
 
       {/* Header */}

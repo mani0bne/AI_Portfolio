@@ -32,11 +32,7 @@ const DarkElegantTemplate = ({ data = {} }) => {
   };
 
   return (
-<<<<<<< HEAD
     <div className="w-full min-h-screen bg-gray-900 p-8 pt-24">
-=======
-    <div className="w-full min-h-screen bg-gray-900 p-8">
->>>>>>> 439d731f31ec0cfc365a3cdf5195d641754da135
       <div className="max-w-6xl mx-auto">
 
         {/* Header */}

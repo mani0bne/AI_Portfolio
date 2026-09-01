@@ -53,11 +53,7 @@ const ModernMinimalTemplate = ({ data = {}, isEditing = false, onDataChange }) =
 
 
   return (
-<<<<<<< HEAD
     <div className="w-full min-h-screen bg-gradient-to-br from-slate-50 to-slate-100 p-8 pt-24">
-=======
-    <div className="w-full min-h-screen bg-gradient-to-br from-slate-50 to-slate-100 p-8">
->>>>>>> 439d731f31ec0cfc365a3cdf5195d641754da135
       <div className="max-w-5xl mx-auto bg-white shadow-2xl rounded-2xl overflow-hidden">
         
         {/* ================= HEADER ================= */}

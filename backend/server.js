@@ -19,9 +19,9 @@ app.use("/api", deployRoutes);
 // Start server AFTER DB connect
 async function startServer() {
   try {
-    // await mongoose.connect("mongodb://127.0.0.1:27017/portfolioDB");
+    await mongoose.connect("mongodb+srv://manihasnetha_db_user:WnBrLhjE8Umw5iOm@cluster0.p6l3fle.mongodb.net/portfolioDB?appName=Cluster0");
 
-    // console.log("✅ MongoDB Connected");
+    console.log("✅ MongoDB Connected");
 
     app.listen(5000, () => {
       console.log("🚀 Server running on http://localhost:5000");

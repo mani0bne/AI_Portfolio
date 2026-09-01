@@ -72,7 +72,7 @@ const HomePage = () => {
       localStorage.setItem("resumeData", JSON.stringify(res.data));
 
       setStatus("success");
-
+ 
       setTimeout(() => navigate("/template-selection"), 1000);
     } catch (err) {
       console.error(err);
